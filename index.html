@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Migrants and the State: Unlocking the Potential of A-files for the Histories of U.S.
+      Immigration</title>
+	<meta name="description" content="A collaborative, interdisciplinary digital project that provides curated access to migrant records held by the U.S. National Archives (NARA). These records, known as A-files, open a rare window on migrant experiences and the operations of the administrative state and have exceptional potential for humanities research as well as for explorations in personal, family, and community history.">
+	<meta name="author" content="RBZ Willits; rbzwillits.org">
+ 
+
+    <!--- SEO Metadata
+   ================================================== -->
+   <meta name="robots" content="index, follow">
+   <meta name="keywords" content="Immigration, migration, migrant, records, record-keeping, archives, National Archives, NARA, A-Files, Alien Files, machine learning, history, collections, public history, communities, digital humanities, DH, USCIS, United States Citizenship and Immigration Services">
+
+   <!-- Twitter Card tags -->
+   <meta name="twitter:card" content="summary_large_image">
+   <meta name="twitter:title" content="Migrants and the State: Unlocking the Potential of A-files for the Histories of U.S.
+   Immigration">
+   <meta name="twitter:description" content="A collaborative, interdisciplinary digital project that provides curated access to migrant records held by the U.S. National Archives (NARA). These records, known as A-files, open a rare window on migrant experiences and the operations of the administrative state and have exceptional potential for humanities research as well as for explorations in personal, family, and community history.">
+   <meta name="twitter:image" content="URL to the image you want to appear when shared on Twitter">
+   <meta name="twitter:site" content="@yourtwitterusername">
+
+   <!-- Open Graph tags -->
+   <meta property="og:title" content="Migrants and the State">
+   <meta property="og:description" content="A collaborative, interdisciplinary digital project that provides curated access to migrant records held by the U.S. National Archives (NARA). These records, known as A-files, open a rare window on migrant experiences and the operations of the administrative state and have exceptional potential for humanities research as well as for explorations in personal, family, and community history.">
+   <meta property="og:image" content="URL to the image you want to appear when shared on social media">
+   <meta property="og:url" content="migrantsandthestate.org">
+   <meta property="og:type" content="website">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="" >
+
+</head>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About the Project</a></li>
+	         <li><a class="smoothscroll" href="#resume-2">About the Team</a></li>
+            <li><a class="smoothscroll" href="#dissertation">Advisors</a></li>
+            <li><a class="smoothscroll" href="#a-files">A-Files</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Migrants and the State:</h1>
+            <h2 class="responsive-headline">Unlocking the Potential of A-files for the Histories of U.S.
+               Immigration</h1>
+            <h3><a class="smoothscroll" href="#about"></a>.</h3>
+            <hr />
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+      <div class="row add-bottom">
+
+         <div class="twelve columns">
+
+            <h2>What is <i>Migrants and the State?</i></h2>
+
+            <p class="lead add-bottom"><i>Migrants and the State: Unlocking the Potential of A-files for the Histories of U.S. Immigration</i> is a collaborative, interdisciplinary digital project that aims to provide curated access to the hundreds of thousands of migrant records held by the U.S. National Archives (NARA). These records, known as A-files, open a rare window on migrant experiences and the operations of the administrative state and have exceptional potential for humanities research as well as for explorations in personal, family, and community history. 
+            </p>
+
+            <hr>
+
+         </div>
+      <div class="row">
+
+         <div class="three columns">
+               <span> &bull; </span><a href="#current_phase">Current Phase</a> 
+               <br><span> &bull; </span><a href="#whats_next">What's Next</a>
+               <br><span> &bull; </span><a href="#get_involved">Get Involved</a>
+               <br><span> &bull; </span><a href="#project_history">Project History</a>
+               <br><span> &bull; </span><a href="#funders">Funders</a>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2 id="current_phase">Current Phase</h2>
+
+            <p>A-files are richly complex historical documents—their length varies radically and so does their contents. In addition to standardized U.S. government forms (visas, naturalization certificates, etc.) and non-U.S. government forms (birth certificates, certificates of marriage, etc.) they may contain records of interviews at the moment of entry, personal narratives, records of medical exams, criminal records, evidence of employment and financial history, and photographs. To make files with such diverse contents searchable, we are using a training set of 650 A-files to develop machine learning models that can identify document types and enable the addition of detailed metadata about them. This level of indexing will make the diverse contents of the files searchable and shed new light on immigration history in the U.S., the history of migrants’ home countries, and the often understudied ways in which the two interconnect. <a href="#request">For more information on A-files, see below</a>.
+            </p>
+
+            <h2 id="whats_next">What's Next</h2>
+
+            <p>After the prototype stage is complete, we will begin the process of building a crowdsourced digital archive of A-files that comprises historical as well as recent files (with appropriate privacy protections for the latter), developed to serve the needs of both scholars and members of migrant communities outside of academia. <a class="smoothscroll" href="#about"><i class="icon-up-circle"></i></a>   
+            </p>
+
+            <h2 id="get_involved">Interested in Joining the Project? Here is How Can You Help:</h2>
+         <ol>
+            <li> We need to expand our data base. Building a crowd-sourced digital archive will allow us to train the machine to recognize community-specific patterns and make it searchable in new ways. If you have A-files on hand, we would love to add them to our archive. We can also assist you in <a href="#request">retrieving historical A-files.</a></li>   
+            
+            <li>We would love to hear your questions. Imagine you could do a google search on immigration files. What would you like to know about your community’s history? Your immigrant neighborhood? The community where your family came from or that you study, as a scholar or community historian? Hearing your ideas and questions will help us make the machine as smart and responsive to community concerns as it can be. <a class="smoothscroll" href="#contact">Contact us with your questions</a>, or you can <a href="https://forms.gle/7qawzxio1yxBBBfv5" target="_blank">sign up to test</a> a prototype. <a class="smoothscroll" href="#about"><i class="icon-up-circle"></i></a>   
+            </li>
+         </ol>
+            <h2 id="project_history">Project History</h2>
+
+            <p id="top_disclaimer">Migrants and the State was conceived in 2019 as an intervention in the increasingly chaotic and confusing landscape surrounding immigration and asylum in the U.S. Under the auspices of NYU’s Bennett-Polonsky Humanities Lab program, we investigated the record-keeping practices of migrant advocates, attorneys, and the federal government. It became clear to us that the so-called “border crisis” was ultimately inseparable from the long history of migrations and migration restrictions in the hemisphere. This history is amply documented in the rich trove of public domain A-files held by the U.S. National Archives, yet these files are by and large inaccessible to the public and cannot be explored at scale. The Migrants and the State team hopes that by harnessing new digital technologies it will become possible for communities and scholars to tell stories of migration at scale in entirely new ways.<a class="smoothscroll" href="#about"><i class="icon-up-circle"></i></a>    
+           
+            <h2 id="funders">Funders</h2>
+
+            <p>Migrants and the State received early stage funding from the NYU Bennett-Polonsky Humanities Lab program, NYU Center for the Humanities, and the NYU Office of the Provost Humanities Mega-Grants Initiative Seed Fund. 
+
+            The Migrants and the State digital prototype has been made possible in part by a major grant from the National Endowment for the Humanities</span><a href="#disclaimer">*</a> Digital Humanities Advancement Grant program: Democracy Demands Wisdom.<a class="smoothscroll" href="#about"><i class="icon-up-circle"></i></a>    
+            </p>
+
+            <p><a href="#"><img width="40%" height="auto" class="pull-left" alt="sample-image" src="images/neh.png"></a><a href="#"><img width="50%" height="auto" class="pull-right" alt="sample-image" src="images/nyu.png"></a></p>
+         
+          
+
+            <div class="row">
+       
+            </div> <!-- end row -->
+      
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About the project Section End-->
+
+<!--About the people section start-->
+
+     <!-- About the Collective Section (Style Guide Section in demo)
+   ================================================== -->
+    <!-- Style Guide Section
+   ================================================== -->
+   <section id="resume-2" style="background: #fff;">
+     
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <h1>Project Directors</h1>
+
+            <hr>
+
+         </div>
+
+      </div> <!-- Row End-->
+      
+      <div class="row">
+
+         <div class="ten columns">
+
+         <h3 class="custom-h3">Ellen Noonan</h3>
+         <p class="subtitle">Clinical Associate Professor of History and Director, Archives and Public History Program, New York University</p>
+         <h3 class="custom-h3">Sibylle Fischer</h3>
+         <p class="subtitle">Associate Professor of History, Spanish and Portuguese, and Latin American Studies, New York University</p>
+
+        <h3 class="custom-h3">Bryan Zehngut-Willits</h3><p class="subtitle">Immigration historian and doctoral candidate in History, NYU</p> 
+
+         </div>
+         
+      </div>
+      </div> <!-- Row End-->
+      <div class="row">
+         <div class="twelve columns">
+            <h1 class="pull-right">Collaborators</h1>
+            <hr>
+         </div>
+      </div> <!-- Row End-->
+ 
+      <div class="row">
+
+         <div class="twelve columns">
+
+         <h3 class="custom-h3-right">Marii Nyrop</h3>
+         <p class="subtitle-right">Senior Research Data Engineer, New York University 
+         </p>
+
+         <h3 class="custom-h3-right">Alexandra Provo</h3>
+         <p class="subtitle-right">Research Curation Librarian, New York University
+         </p>
+
+        <h3 class="custom-h3-right">Ajay Krishnan Gopalan</h3>
+        <p class="subtitle-right">Data Science Graduate Research Assistant, Computer Science, NYU</p> 
+       
+        <h3 class="custom-h3-right">Joaquin Navarrette</h3>
+        <p class="subtitle-right">Data Science Undergraduate Research Assitant, NYU</p> 
+
+        <h3 class="custom-h3-right">Ashley Sarkisian</h3>
+        <p class="subtitle-right">Undergraduate Assistant</p> 
+
+        <h3 class="custom-h3-right">Elijah VanderMolen</h3>
+        <p class="subtitle-right">Undergraduate Assistant</p> 
+
+        <h3 class="custom-h3-right">Marco Garcia</h3>
+        <p class="subtitle-right">Undergraduate Assistant</p> 
+      
+        <h3 class="custom-h3-right">Emma Jeong</h3>
+        <p class="subtitle-right">Undergraduate Assistant</p> 
+      
+      </div>
+         
+      </div>
+      </div> <!-- Row End-->
+      <!-- dissertation Section
+   ================================================== -->
+   <section id="dissertation">
+
+      <div class="row">
+
+         <div class="two columns header-col">
+
+         </div>
+
+         <div class="twelve columns">
+            <h2><span class="lead">Advisory Board</span></h2>
+            <p><span class="lead">
+               <strong>Adam Cox</strong>, Robert A. Kindler Professor of Law, New York University<br>
+               <strong>Juliana Freire</strong>, Professor of Computer Science and Data Science, New York University<br>
+               <strong>Maria Cristina Garcia</strong>, Howard A. Newman Professor of American Studies in the Department of History, Cornell University<br>
+               <strong>Irvin Ibarguen</strong>, Assistant Professor of History, New York University<br>
+               <strong>Kevin Kenny</strong>, Professor of History and Director of Glucksman Ireland House, New York University<br>
+               <strong>Shannon O’Neill</strong>, Curator for Tamiment-Wagner Collections, New York University<br>
+               <strong>Marian Smith</strong>, Senior Historian at U.S. Citizenship and Immigration Services (USCIS) (retired)<br>
+               <strong>Lauren Tilton</strong>, Associate Professor of Digital Humanities, University of Richmond<br>
+               <br>
+               <br>
+               Special thanks to <strong>Ben Schmidt, Molly Rogers, Elisabeth Burnes, JoJo Karlin, Jake Ersland, Gabriela Basterra, Calista LaMotte, Alexandra Cordero, Karin Burrell, Rebecca Maner, Alona Bach, Maddalena Marinari, Adam Goodman, Anna Law, Benjamin Berman-Gladstone, Bita Mousavi, Barbara Perez Curiel, Sarah Sklaw, Alexia Orengo-Green, Jason Ahlenius, Alec Ferretti.</strong>
+               
+            </span></p>
+         </div>
+            <div class="three columns action">
+
+            </div>
+         </div>
+   </section> <!-- dissertation Section End-->
+ 
+<!-- Resume-2 Section
+   ================================================== -->
+   <section id="resume-2">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row work" id="a-files">
+
+         <div class="three columns header-col">
+            <h1 id="request"><span>More on A-Files</span></h1>
+            </div>
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+              <p class="body-black">Over ninety million migrant records, known as A-files, are held by the federal agency United States Citizenship and Immigration Services (USCIS). Each A-file is a collection of records generated by the state for an individual migrant, immigrant, or refugee who enters the U.S. The contents of A-files—including government forms, correspondence, identity documents and certificates, photographs, and health, employment, and financial records—document such legal and administrative processes as naturalization, deportation, and the determination of asylum claims. The A-files of any individual born more than a 100 years ago are known as historical A-files; they are transferred to the National Archives (NARA) and are in the public domain. Even though they are in the public domain, A-files requested from NARA undergo a privacy screening process and some information may be redacted to protect the privacy of other individuals referenced in the file; A-files requested from USCIS go through a similar privacy review.
+
+               <a href="https://www.archives.gov/files/publications/prologue/2013/spring/a-files.pdf" target="_blank">This article by archivist Elisabeth Burnes and genealogist Marisa Louie provides a brief history of the A-file</a> record keeping system and information on how to locate an ancestor’s A-file. 
+              </p> 
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+      <!-- Fellowships and Awards
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>Request A-Files</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <p class="body-black">You can request any A-file contained in the NARA catalog; <a href="https://www.archives.gov/research/immigration/aliens" target="_blank">information on requesting A-files from NARA can be found here.</a>
+               </p>
+
+               </div>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Fellowships and Awards -->
+      </div>
+      <!-- Publications
+      ----------------------------------------------- -->
+      <div class="row work">
+
+         <div class="three columns header-col">
+            <h1><span>FOIA</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <p class="body-black">Under the Freedom of Information Act (FOIA) and the Privacy Act (PA), you can request your own A-File from USCIS, or someone else’s if you have their written permission or you can prove that they are deceased; <a href="https://www.uscis.gov/history-and-genealogy/genealogy/requesting-records" target="_blank"> information on requesting A-files from USCIS can be found here.</a> 
+
+               </div>
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Publications -->
+
+      <!-- PROFESSIONAL EXPERIENCE
+      ----------------------------------------------- -->
+     
+   </section> <!-- Resume-2 Section End-->
+
+   <!-- Contact Section
+   ================================================== -->
+
+   <section id="contact">
+
+      <div class="row section-head">
+
+         <div class="two columns header-col">
+
+            <h1><span>Get In Touch.</span></h1>
+
+         </div>
+
+         <div class="ten columns">
+
+               <p class="lead" >Use the form below to reach out to the <i>Migrants and the State</i> team!
+
+               </p>
+
+         </div>
+
+      </div>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <!-- form -->
+            <form id="contact" id="fs-frm" name="contact" accept-charset="utf-8" action="https://formspree.io/f/xwkgrrgv" method="post">
+               <fieldset>
+
+               <div>
+                  <label for="contactName">Name <span class="required">*</span></label>
+                  <input type="text" value="" size="35" id="contactName" name="contactName">
+               </div>
+
+               <div>
+                  <label for="contactEmail">Email <span class="required">*</span></label>
+                  <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+               </div>
+
+               <div>
+                  <label for="contactSubject">Subject</label>
+                  <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+               </div>
+
+               <div>
+                  <label for="contactMessage">Message <span class="required">*</span></label>
+                  <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+               </div>
+
+               <div>
+                  <button class="submit">Submit</button>
+                  <span id="image-loader">
+                     <img alt="" src="images/loader.gif">
+                  </span>
+               </div>
+
+            </fieldset>
+            </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="copyright">
+               <li id="disclaimer">* Any views, findings, conclusions, or recommendations expressed in this web resource do not necessarily represent those of the National Endowment for the Humanities. <a class="smoothscroll" href="#top_disclaimer"><i class="icon-up-circle"></i></a>
+             <br>
+             <br>
+             &copy; <i>Migrants and the State,</i> 2024</li>
+            </ul>
+
+
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
